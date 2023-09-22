@@ -1,0 +1,5 @@
+import time
+import pytz
+import datetime
+IST = pytz.timezone("Asia/Kolkata")
+print(datetime.datetime.now(IST))
